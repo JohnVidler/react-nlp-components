@@ -1,3 +1,5 @@
+import AnnotatedParagraph from './AnnotatedParagraph'
+
 export * from AnnotatedParagraph
 export * from ConcordanceList
 export * from NGramList
