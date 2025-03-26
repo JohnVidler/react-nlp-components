@@ -1,0 +1,34 @@
+{
+  "name": "react-nlp-components",
+  "version": "1.0.0",
+  "description": "A collection of React components for NLP analysis representation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnVidler/react-nlp-components.git"
+  },
+  "keywords": [
+    "react",
+    "nlp",
+    "component",
+    "components",
+    "library"
+  ],
+  "author": "John Vidler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnVidler/react-nlp-components/issues"
+  },
+  "homepage": "https://github.com/JohnVidler/react-nlp-components#readme",
+  "devDependencies": {
+    "@types/react": "^19.0.12",
+    "react": "^19.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "motion": "^12.6.2"
+  }
+}
