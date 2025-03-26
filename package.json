@@ -2,7 +2,7 @@
   "name": "react-nlp-components",
   "version": "1.0.0",
   "description": "A collection of React components for NLP analysis representation",
-  "main": "index.js",
+  "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
