@@ -1,5 +1,7 @@
-
-export * from './Concordances';
-export * from './NGrams';
-export * from './Text';
-export * from './Tokens';
+export * from AnnotatedParagraph
+export * from ConcordanceList
+export * from NGramList
+export * from TaggedToken
+export * from Token
+export * from ValueToken
+export default AnnotatedParagraph

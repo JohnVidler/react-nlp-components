@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Token } from './Token';
+import { Token } from './Tokens/Token';
 
 export function TaggedToken({ text, tag, color, inline, index }) {
     if( inline ) {

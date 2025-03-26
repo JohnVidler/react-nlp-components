@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import { Token } from '../Tokens/Token';
-import { ValueToken } from '../Tokens/ValueToken';
-import { TaggedToken } from '../Tokens/TaggedToken';
+import { Token } from './Token';
+import { ValueToken } from './ValueToken';
+import { TaggedToken } from './TaggedToken';
 
 export default function AnnotatedParagraph({ data, inline }) {
 
