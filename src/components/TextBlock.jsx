@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import * as motion from 'motion/react-client';
 
-export default function TextBlock( {data, attrib, isQuote} ) {
+export function TextBlock( {data, attrib, isQuote} ) {
   const attribution = (!attrib?"":<div className="text-right text-sm">{attrib}</div>)
 
   let extraClasses = "";
