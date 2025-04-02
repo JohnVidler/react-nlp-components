@@ -33,7 +33,7 @@ ConcordanceLine.defaultProps = {
   offset: 0
 };
 
-export default function ConcordanceList( { data, max } ) {
+export function ConcordanceList( { data, max } ) {
   const renderable = data.slice(0,max).map( (v,i) => <ConcordanceLine key={i} offset={i} data={v} /> );
   return <div className="grid grid-cols-1">{renderable}</div>;
 }

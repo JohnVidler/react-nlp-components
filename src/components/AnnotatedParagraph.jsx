@@ -3,7 +3,7 @@ import { Token } from './Token';
 import { ValueToken } from './ValueToken';
 import { TaggedToken } from './TaggedToken';
 
-export default function AnnotatedParagraph({ data, inline }) {
+export function AnnotatedParagraph({ data, inline }) {
 
     const mappedData = data.map( (token) => { 
         return {

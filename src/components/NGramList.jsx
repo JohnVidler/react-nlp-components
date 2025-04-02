@@ -19,7 +19,7 @@ export function NGram( props ) {
           </motion.div>;
 }
 
-export default function NGramList( props ) {
+export function NGramList( props ) {
   const max = props.max || null;
   let data = props.data || [];
 
